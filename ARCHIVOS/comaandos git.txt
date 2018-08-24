@@ -1,0 +1,26 @@
+git init -------------para inicializar 
+git status-----------ver el estado del repositorio
+git add  --y el nombre del archivo------para agregar al repositorio del escritorio
+git status ----para ver si a cargardo el archivo
+clear ---limpiar y escribir de nuevo
+git remote add origin ---y pegamos el url del repositorio
+
+git commit -m "agrege el archivo tal"--------para agregar un comentario
+git push origin master  -----para sincronizar con git
+git pull --nos descarga todos los canbios resientes en el repositorio
+
+
+
+
+=====================================================================================
+
+add clone ----aqui pegamos el url 
+clear
+ls
+clear
+cd Curso_Java_Profe
+git add -A ----para subir todos los archivos al repositorio
+git add --- y el nombre del archivo para subir un archivo 
+git commit -m "Copia de mi proyecto"
+git log ---nos aparece todos los commit que emos echo
+git push ----para subir todos los canbios al repositorio

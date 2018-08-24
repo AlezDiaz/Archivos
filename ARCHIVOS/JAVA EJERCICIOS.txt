@@ -1,0 +1,25 @@
+FUNCION
+===========
+
+siempre se cararcteriza por tener una funcion
+
+===> RESIBE PARAMETROS
+===> REALIZA UNA ACCION
+RETORNA UN VALOR
+
+METODO
+======
+
+===> PARAMETRO (OPL)
+===> ACCION
+
+
+COMO SE DEFINE UNA ACION 
+
+un metodo no retorna aun valor
+
+
+
+1) Saludar Alumno.
+2
+9 calcular promedio de 3 notas(si el promedio

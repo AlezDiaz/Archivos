@@ -38,6 +38,102 @@ git push origin POO
 git checkout master
 
 
+GIT CONFIG -- GLOBAL --UNSET -ALL USER.NAME
+GIT CONFIG -- GLOBAL --UNSET -ALL USER.EMAIL
+GIT ADD -----AGREGAR ARCHIVOS A REPOSITORIO(TEMPORAL
+GIT COMMINT ----decir a git que los archivos agregados estan listos para llegar al repositorio
+GIT HUB -------subir al repositorio.
+git clone ------pegar el url
+ls
+git push ===> subir mi canbi0
+git pull ===>  obtener la ultima rama del repositorio
+git checkout Rama  =====> para canbiar de rama
+git checkout -b Rama2  ====> crear una rama.
+git dif ===> mostra los canbios 
+git checkout archivo.extencion ====>elimina canbios sonbre el archivo
+gitk ===> abre entorno grafico historial de commits
+
+
+---------------------------------------------------
+cd  FD_Prueba01 
+git checkout -b ---agregar una carpeta en FD_Prueba01
+git checkout -b POO
+git status
+git add .
+git commit -m "Programacion Orientada a Objetos "
+git status
+git origin push
+git config --global user.email"alexdiazdelgado160@hotmail.com"
+git config --global user.name "Alex Diaz"
+git status
+git commit
+git push origin POO
+git bransh -a ----para eliminar la carpeta
+git checkout master
+git checkout POO
+git status
+git add .
+git commit -m "segundo mensaje para POO"
+git push origin POO
+git checkout master
+
+
+
+======================================================================
+
+
+
+git init -------------para inicializar 
+git status-----------ver el estado del repositorio
+git add  --y el nombre del archivo------para agregar al repositorio del escritorio
+git status ----para ver si a cargardo el archivo
+clear ---limpiar y escribir de nuevo
+git remote add origin ---y pegamos el url del repositorio
+git commit -m "agrege el archivo tal"--------para agregar un comentario
+git push origin master  -----para sincronizar con git
+git pull --nos descarga todos los canbios resientes en el repositorio
+
+
+
+
+=====================================================================================
+ para cargar archivos o carpetas todo 
+=====================================
+
+
+add clone ----aqui pegamos el url 
+clear
+ls
+clear
+cd Curso_Java_Profe
+git add -A ----para subir todos los archivos al repositorio
+git add --- y el nombre del archivo para subir un archivo 
+git commit -m "Copia de mi proyecto"
+git log ---nos aparece todos los commit que emos echo
+git push origin mastwer ----para subir todos los canbios al repositorio
+
+
+===========================================
+para copiar carpeta por carpeta en un arbol
+===========================================
+
+git clone y el url
+cd y la carpeta de clonar luego
+git checkout -b --y el nombre de la carpeta para el repositorio luego
+git status ---para ver si nos creo la crpeta
+ git add . ---para cargar todos  los archivos que estan en la carpeta git 
+git status ----para ver si ya cargo
+git commit -m ---para agerar una copia o comentario entre comillas
+git push origin POO -o en nombre de la carpeta 
+git log ----para ver todos los commit
+git checkout master ---para volver al inicio
+git branch -a ----para eliminatr una carpeta
+
+
+
+
+
+
 
 
 
